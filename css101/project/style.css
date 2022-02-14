@@ -1,0 +1,96 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Navigation bar */
+.navigation {
+    padding: 41px;
+}
+
+.nav-bar-links {
+    margin-left: auto!important;
+}
+
+.navigation>.container {
+    /* Container needs to be flex to allow for .nav-bar-links box to stretch to edge*/
+    display: flex;  
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+/* nav link box */
+.nav-item {
+    float: left;
+    text-transform: uppercase;
+}
+
+/* <a> nav link */
+.nav-link {
+    color: black;
+    text-decoration: inherit;
+    font-weight: 400;
+    font-size: 20px;
+    font-stretch: normal;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    letter-spacing: 1.5px;
+}
+
+.image-opaque {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.hero-box {
+    background-size: cover!important;
+    background-position: 50%!important;
+    background-repeat: no-repeat;
+    height: 450px;
+    padding-top: 144px;
+    padding-bottom: 144px;
+}
+
+.hero-text {
+    font-weight: 350;
+    color: #f5f5f5;
+}
+
+.title {
+    font-size: 64px;
+    max-width: 450px;
+}
+
+.subtitle {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.contact-button {
+    display: inline-block;
+    text-decoration: inherit;
+    color: black;
+    background-color: #f5f5f5;
+    padding: 1rem 2rem 1rem 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+#navlogo {
+    display: flex!important;
+}

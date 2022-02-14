@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML 201</title>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon/shoe.jpg" type="image/jpg">
+    </head>
+    <body>
+        <a href="https://website.com">Go to website.com</a>
+        <h1 id="top">Welcome to HTML 201</h1>
+        <a href="#bottom">Scroll to bottom of page</a>
+        <p>
+            <span style="text-decoration: underline;">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+            Assumenda magni illo nisi iste ex dolore perspiciatis officiis molestias maxime recusandae voluptatibus quod amet eligendi placeat, asperiores exercitationem velit nostrum adipisci!
+        </p>
+
+        <img src="images/computer.jpg" alt="Computer" width="700">
+
+        <table border="1" width="100%">
+            <tr>
+                <th colspan="2">Welcome to my website</th> 
+            </tr>
+            <tr>
+                <td width="20%">
+                    <h3>Navigation</h3>
+                </td>
+                <td width="20%"> 
+                    <h3>Content</h3>
+                </td>
+            </tr>
+        </table>
+
+        <style>
+            .whiteonblack {
+                padding: 40px; 
+                color: white; 
+                background-color: black;
+            }
+            .uppercase {
+                text-transform: uppercase;
+            }
+            #testingid {
+                border: 15px solid red;
+            }
+        </style>
+
+
+        <!-- full padding of white text with black background -->
+        <div class="whiteonblack">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quasi amet sint laborum, magni veritatis dolorum tempora aperiam nisi tenetur fugit reiciendis rerum incidunt distinctio iste, non magnam ratione quod!
+        </div>
+
+        <div id="testingid" class="uppercase">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ipsa iure consequatur adipisci vero, in laborum consectetur soluta id. Ab perferendis inventore et, asperiores praesentium corrupti quia magni nemo consequuntur.
+        </div>
+
+        <div class="uppercase whiteonblack">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ipsa iure consequatur adipisci vero, in laborum consectetur soluta id. Ab perferendis inventore et, asperiores praesentium corrupti quia magni nemo consequuntur.
+        </div>
+        
+        <h3>Format Code</h3>
+        <!-- 
+            pre - Preformats code literally as seen on text editor
+            & - accesses HTML entities using an entity code
+                &lt; - prints "<"
+        -->
+         
+        <pre>
+some        stuff   here &lt;b&gt;This is bold&lt;/b&gt;
+Second      line    here
+        </pre>
+
+        <p>
+            <code>Lorem      ipsum     dolor sit amet consectetur</code> adipisicing elit. Esse repellendus quasi enim? Dicta dolor tenetur deserunt, velit recusandae culpa adipisci soluta tempore modi quas ex. Quisquam praesentium mollitia necessitatibus tenetur.
+        </p>
+
+        <div id="bottom">
+            <a href="#top">Back to top</a>
+            <sub>&copy;</sub> 2022 <!-- Subscript format on copyright entity -->
+
+        </div>
+
+        <h3>Forms</h3>
+        <form action="">
+            <div>
+                <input required name="email" type="email" placeholder="Enter your email">
+            </div>
+            <div>
+                <textarea required name="address" cols="20" rows="5" placeholder="Please enter your address"></textarea>
+            </div>
+
+            <div>
+                <select name="selected_option">
+                    <option value="" disabled="disabled"> 
+                        - Disabled -
+                    </option>
+                    <option value="value1">Value1</option>
+                    <option value="value2">Value2</option>
+                    <option value="selected_by_default" selected="selected">
+                        Selected by Default
+                    </option>
+                </select>
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+        <h3>Embeds</h3>
+        <iframe width="900" height="315" src="https://www.youtube.com/embed/30IBGHeSwak" frameborder="0" allowfullscreen></iframe>
+
+        <h3 id="bottom">Back to top</h3>
+        
+    </body>
+</html>

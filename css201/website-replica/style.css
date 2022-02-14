@@ -1,0 +1,148 @@
+body {
+    font-family: 'adonis-regular';
+    color: #f5f5f5;
+    background-color: #f5f5f5;
+    margin: 0;
+    margin-top: 0;
+    font-size: 1.5vw;
+}
+
+h1 {
+    font-size: 8vw;
+}
+
+#hero-image {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(./assets/hero-image.jpg);
+    height: 950px;
+    background-size: cover!important;
+    background-position: 48%;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 0;
+}
+
+.nav-bar {
+    display: flex;
+    padding: 2rem 1rem;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 17px;
+    padding: 0 0.5rem;
+}
+
+.logo {
+    padding-right: 0.5rem;
+    padding-left: 1rem;
+    font-size: 30px;
+    font-family: 'adonis-regular';
+}
+
+.page-links {
+    margin-right: auto;
+}
+
+.social-links {
+    float: left; 
+    margin-left: auto;
+}
+
+.resume-link {
+    border: 3px solid white;
+    padding: 0.6rem 1rem;
+    margin: 0 1rem;
+}
+
+.social-icon {
+    height: 2rem;
+    width: 2rem;
+}
+
+.hero-box {
+    display: block;
+    width: 100%;
+    margin-top: 10rem;
+    text-align: center;   
+}
+
+.hero-title {
+    font-family: 'adonis-regular';
+    font-weight: 200;
+}
+
+.subtitle-item {
+    display: inline-block;
+    padding: 0 0.8rem;
+    font-weight: 200;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.subtitle-item  + .subtitle-item {
+    border-left: 2px solid #f5f5f5;
+}
+
+#objective-section {
+    background-color: #f5f5f5;
+    display: flex;
+    margin-bottom: 0;
+}
+
+#experience-box  {
+    height: 1200px;
+    background-color: #2e4a52;
+    display: flex;
+    padding: 3rem 2rem;
+}
+
+#footer {
+    height: 200px;
+    background-color: #f5f5f5;
+}
+
+.objective-image {
+    flex-basis: 40%;
+    background-image: url(./assets/laugh-sitting.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%!important;
+    height: 0;
+    padding-top: 60%;
+    z-index: 0;
+    margin: 4rem auto;
+    margin-bottom: 0;
+    position: relative;
+    right: 4rem;
+}
+
+/* FIX THIS */
+.objective-image::after {
+    content: "I’m an enthusiastic learner eager to cooperate with a hard-working team through clear communication, attention to detail and proficient programming and organizational skills. \A\A I look forward to cultivating an efficient and collaborative work environment in my next position.";
+    background-color: #2e4a52;
+    position: absolute;
+    top: 0;
+    left: 5rem;
+    border: 10px solid red;
+    text-align: left;
+    white-space: pre-wrap;
+    font-family: 'adonis-regular';
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 200;
+    padding: 25px;
+    z-index: 1;
+}
+
+.experience-content {
+    flex-basis: 65%;
+}
+
+.experience-image {
+    flex-basis: 30%;
+}
+
+.experience-content > h1, h3 {
+    font-family: 'adonis-regular';
+}
